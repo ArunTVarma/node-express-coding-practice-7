@@ -1,0 +1,30 @@
+###
+GET http://localhost:3000/players/
+
+###
+get http://localhost:3000/players/9/
+
+###
+PUT http://localhost:3000/players/9/
+Content-Type: application/json
+
+{
+  "playerName": "James Bond"
+}
+
+###
+GET  http://localhost:3000/matches/
+
+
+###
+get http://localhost:3000/matches/18/
+
+###
+get http://localhost:3000/players/1/matches/
+
+
+###
+GET http://localhost:3000/matches/1/players/
+
+###
+GET http://localhost:3000/players/1/playerScores/
